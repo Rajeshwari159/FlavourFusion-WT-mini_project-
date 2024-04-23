@@ -1,0 +1,44 @@
+.con_head{
+    display: flex;
+    justify-content: center;
+    color:orange;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.your_ide{
+    display: flex;
+    justify-content: center;
+    color:rgb(50, 50, 50);
+}
+.sec_in{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color:rgb(50, 50, 50);
+}
+.inp_rec{
+    margin-top: 20px;
+}
+.Rec_name{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+}
+#Rec_name{
+    width: 68%;
+}
+#sec_in{
+    margin-left: 87px;
+}
+#sub{
+    background-color: #6CB4EE;
+    border-radius: 7px;
+    border: 0px;
+    cursor: pointer;
+}
+#sec_in2{
+    padding-bottom: 20px;
+}

@@ -1,0 +1,75 @@
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.h2 span{
+    color: orange;
+}
+.creators{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.creators div{
+    border: 1px solid black;
+    border-radius: 7px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #323344;
+    color: white;
+}
+.creators a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.b{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+/* .creators a{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 7%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323344;
+} */
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(56, 53, 53,0.9);
+}
+.feedback a{
+    text-decoration: none;
+    color: rgb(98, 98, 202);
+    margin-bottom: 30px;
+}
+.feedback a:hover{
+    text-decoration: underline;
+}
